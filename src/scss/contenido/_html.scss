@@ -1,0 +1,14 @@
+@use '../base/variables' as v;
+@use '../base/mixin' as m;
+
+*{
+    font-family: v.$fuente-principal;
+}
+
+h1{
+    color: v.$primario;
+}
+h3{
+    color: v.$secundario;
+}
+
